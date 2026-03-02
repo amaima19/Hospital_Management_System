@@ -26,11 +26,15 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Inter', sans-serif;
-  background: var(--bg-dark);
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(rgba(6, 11, 22, 0.75), rgba(6, 11, 22, 0.88)), url('hospital_bg.png') no-repeat center center fixed;
+  background-size: cover;
   color: var(--text-primary);
   overflow-x: hidden;
   min-height: 100vh;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  font-size: 1.05rem;
+  letter-spacing: 0.4px;
 }
 
 /* ===== SCROLLBAR ===== */
